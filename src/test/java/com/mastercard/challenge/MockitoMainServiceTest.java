@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Created by ysedn on Jul 13, 2020
+ *
  */
 @SpringBootTest
 public class MockitoMainServiceTest {

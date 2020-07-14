@@ -11,12 +11,15 @@ import java.util.*;
 
 /**
  * Created by ysedn on Jul 13, 2020
+ *
+ * MainService class. Contains most of business logic
  */
 @Service
 public class MainService {
 
     Logger logger = LoggerFactory.getLogger(getClass());
 
+    //List of Set collections of independent connected cities
     private List<Set<String>> connectedCitiesList = new ArrayList<>();
 
     private String filePath = "src/main/resources/city.txt";

@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by ysedn on Jul 13, 2020
+ *
+ * Main Controller with /connected endpoint
  */
 @RestController
 public class MainController {

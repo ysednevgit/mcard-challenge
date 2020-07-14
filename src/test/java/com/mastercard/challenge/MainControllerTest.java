@@ -15,6 +15,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 /**
  * Created by ysedn on Jul 13, 2020
+ *
+ * Spring Integration Test to test MainController
  */
 
 @ExtendWith(SpringExtension.class)
