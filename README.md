@@ -33,8 +33,8 @@ java -jar target/challenge-0.0.1-SNAPSHOT.jar
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Run the project.
-Open the browser and enter origin and destination cities
+Run the project.<br>
+Open the browser and enter origin and destination cities<br>
 http://localhost:8080/connected?origin=Houston&destination=Austin
 
 <!-- CONTACT -->
