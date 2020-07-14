@@ -33,9 +33,13 @@ java -jar target/challenge-0.0.1-SNAPSHOT.jar
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Run the project.<br>
+Start the project<br>
 Open the browser and enter origin and destination cities<br>
 http://localhost:8080/connected?origin=Houston&destination=Austin
+<br>
+As a second option use Swagger UI:<br>
+http://localhost:8080/swagger-ui.html
+<br> Select main-controller -> call /connected method
 
 <!-- CONTACT -->
 ## Contact
