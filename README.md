@@ -22,11 +22,11 @@ pairs (one pair per line, comma separated), which indicates that there’s a roa
 ```sh
 git clone https://github.com/ysednevgit/mcard-challenge.git
 ```
-3. Package with maven
+2. Package with maven
 ```sh
 mvn clean package
 ```
-4. Run
+3. Run
 ```sh
 java -jar target/challenge-0.0.1-SNAPSHOT.jar
 ```
