@@ -90,8 +90,7 @@ public class MainService {
                     }
                 }
                 if (size == 0 || !found) {
-                    Set<String> set = new HashSet<>(Arrays.asList(cities[0], cities[1]));
-                    connectedCitiesList.add(set);
+                    connectedCitiesList.add(new HashSet<>(Arrays.asList(cities[0], cities[1])));
                 }
             }
             myReader.close();
