@@ -29,6 +29,9 @@ public class MockitoMainServiceTest {
         assertFalse(mainService.areCitiesConnected("", "Houston"));
         assertFalse(mainService.areCitiesConnected(null, "Boston"));
         assertFalse(mainService.areCitiesConnected(null, null));
+
+        mainService.setFilePath("src/test/resources/city-test-bad-name.txt");
+        assertFalse(mainService.areCitiesConnected("Dallas", "Houston"));
     }
 
 

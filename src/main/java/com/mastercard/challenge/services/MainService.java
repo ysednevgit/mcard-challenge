@@ -11,7 +11,7 @@ import java.util.*;
 
 /**
  * Created by ysedn on Jul 13, 2020
- *
+ * <p>
  * MainService class. Contains most of business logic
  */
 @Service
@@ -30,6 +30,7 @@ public class MainService {
 
     public void setFilePath(String filePath) {
         this.filePath = filePath;
+        connectedCitiesList.clear();
     }
 
     public boolean areCitiesConnected(final String origin, final String destination) {
@@ -95,7 +96,7 @@ public class MainService {
             }
             myReader.close();
         } catch (FileNotFoundException e) {
-            logger.error("File not found", e);
+            logger.error("File not found " + filePath);
         }
         //remove all zero size elements
         connectedCitiesList.removeIf(e -> e.size() == 0);

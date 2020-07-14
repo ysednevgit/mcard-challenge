@@ -4,6 +4,7 @@
 * [About the Project](#about-the-project)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Test Code Coverage](#test-coverage)
 * [Contact](#contact)
 
 
@@ -41,8 +42,11 @@ As a second option use Swagger UI:<br>
 http://localhost:8080/swagger-ui.html
 <br> Select main-controller -> call /connected method
 
+<!-- Test Code Coverage -->
+## Test Code Coverage
+After you run "mvn clean package" check target\site\jacoco\index.html for test coverage statistics
+
 <!-- CONTACT -->
 ## Contact
-
 Yury Sednev - yury.sednev@gmail.com
 
